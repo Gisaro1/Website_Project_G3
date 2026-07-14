@@ -1,11 +1,11 @@
-<footer class="flex justify-between items-start max-w-[95%] mx-auto py-6 font-outfit text-2xl font-medium leading-none">
-    <address class="not-italic flex gap-12">
+<footer class="flex flex-col lg:flex-row lg:justify-between lg:items-start max-w-[95%] mx-auto py-6 font-outfit text-2xl font-medium leading-none gap-6 lg:gap-0">
+    <address class="not-italic flex flex-col gap-6 md:flex-row md:justify-between lg:justify-start lg:gap-12 w-full lg:w-auto">
         <p>
             Agentur Baumeister<br>
             Böckhstraße 13<br>
             10967 Berlin
         </p>
-        <div class="flex flex-col space-y-4 text-right">
+        <div class="flex flex-col space-y-4 text-left md:text-right">
             <a href="#" class="underline underline-offset-4">
                 shallo@agentur-baumeister.com
             </a>
@@ -14,10 +14,14 @@
             </a>
         </div>
     </address>
-    <a>LinkedIn</a>
-    <a>Instagram</a>
-    <div class="flex flex-col items-end text-right space-y-2">
-    <a class="hover:underline">Impressum</a>
-    <a class="hover:underline">Datenschutz</a>
+
+    <div class="flex justify-between items-center w-full lg:w-auto lg:contents py-6 md:py-0">
+        <a class="order-3 md:order-1">LinkedIn</a>
+        <a class="order-4 md:order-2">Instagram</a>
+        
+        <div class="contents lg:flex lg:flex-col lg:items-end lg:text-right lg:space-y-2">
+            <a class="order-1 md:order-3">Impressum</a>
+            <a class="order-2 md:order-4">Datenschutz</a>
+        </div>
     </div>
 </footer>
