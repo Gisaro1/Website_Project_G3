@@ -6,6 +6,13 @@
     <link rel="stylesheet" href="/dist/output.css">
     <title>Website project template</title>
 </head>
+<body>
+    <div id="header"></div>
+    <div id="hero"></div>
+    <div id="contact"></div>
+    <div id="footer"></div>
+    <div id="privacy"></div>
+</body>
 <script>
     const loadComponents = (id, url) =>  {
         fetch(url)
@@ -23,11 +30,4 @@
         loadComponents('privacy', 'src/sections/privacy.html');
     }
 </script>
-<body>
-    <div id="header"></div>
-    <div id="hero"></div>
-    <div id="contact"></div>
-    <div id="footer"></div>
-    <div id="privacy"></div>
-</body>
 </html>
