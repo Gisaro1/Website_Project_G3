@@ -3,10 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/dist/output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Website project template</title>
 </head>
-<script>
+<body>
+    <div id="header"></div>
+    <div id="hero"></div>
+    <div id="contact"></div>
+    <div id="footer"></div>
+    <div id="privacy"></div>
+</body>
+<body>
+    <div id="header"></div>
+    <div id="hero"></div>
+    <div id="footer"></div>
+    <script>
     const loadComponents = (id, url) =>  {
         fetch(url)
         .then((response) => response.text())
@@ -21,9 +33,5 @@
         loadComponents('footer', 'src/sections/footer.html');
     }
 </script>
-<body>
-    <div id="header"></div>
-    <div id="hero"></div>
-    <div id="footer"></div>
 </body>
 </html>
