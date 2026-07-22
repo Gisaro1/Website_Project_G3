@@ -7,6 +7,13 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Website project template</title>
 </head>
+<body>
+    <div id="header"></div>
+    <div id="hero"></div>
+    <div id="contact"></div>
+    <div id="footer"></div>
+    <div id="privacy"></div>
+</body>
 <script>
     const loadComponents = (id, url) =>  {
         fetch(url)
@@ -20,12 +27,7 @@
         loadComponents('header', 'src/sections/header.html');
         loadComponents('hero', 'src/sections/hero.html');
         loadComponents('footer', 'src/sections/footer.html');
+        loadComponents('privacy', 'src/sections/privacy.html');
     }
 </script>
-<body>
-    <div id="header"></div>
-    <div id="hero"></div>
-    <div id="contact"></div>
-    <div id="footer"></div>
-</body>
 </html>
