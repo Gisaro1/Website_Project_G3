@@ -7,7 +7,12 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Website project template</title>
 </head>
-<script>
+<body class="bg-[#efecea]">
+    <div id="header"></div>
+    <div id="hero"></div>
+    <div id="contact"></div>
+    <div id="footer"></div>
+    <script>
     const loadComponents = (id, url) =>  {
         fetch(url)
         .then((response) => response.text())
@@ -19,14 +24,8 @@
     window.onload = () => {
         loadComponents('header', 'src/sections/header.html');
         loadComponents('hero', 'src/sections/hero.html');
-        loadComponents('contact', 'src/sections/contact.html');
         loadComponents('footer', 'src/sections/footer.html');
     }
 </script>
-<body>
-    <div id="header"></div>
-    <div id="hero"></div>
-    <div id="contact"></div>
-    <div id="footer"></div>
 </body>
 </html>
