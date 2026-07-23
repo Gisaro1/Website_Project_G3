@@ -1,10 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./index.html", "./src/**/*.{html,js}"],
   theme: {
     extend: {
       fontFamily: {
         outfit: ['Outfit', 'sans-serif'],
+      },
+      colors: {
+        'color-red': '#ff5e5e',
       },
     },
   },
