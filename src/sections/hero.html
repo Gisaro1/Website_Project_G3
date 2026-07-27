@@ -1,7 +1,8 @@
 <div class="font-outfit">
     <div class="">
-        <img src="./src/sections/img/pc.png" alt="PC-BG" class="lg:w-[1900px] lg:pt-[120px]">
-        <div class="absolute inset-0 flex items-center justify-center lg:top-[580px] text-[#efecea]">
+    <img src="./src/sections/img/pc.png" alt="PC-BG" class="hidden lg:block w-[1900px] pt-[120px]">
+    <img src="./src/sections/img/Tablet.png" alt="Tablet" class="hidden md:block lg:hidden pt-[108px]">
+         <div class="hidden sm:block md:hidden lg:block absolute inset-0 flex items-center justify-center top-[580px] text-[#efecea]">
             <h2 class="text-center font-medium lg:text-[48px]">
                 We help you set<br>
                 focus and gain<br>
@@ -12,61 +13,74 @@
         </div>
     <section class="px-[20px] md:px-[80px] lg:px-[180px] pb-16 md:pb-20 w-full">
         <div class="w-full lg:h-[660px]">
-            <p class="lg:text-[48px] leading-1">
-                We are a Berlin-based communications agency specialising in helping
-                companies and brands find their voice and position themselves.
-                Whether it's brand building, identity sharpening, or communication
-                strategy, we bring a fresh perspective to established structures,
-                develop tailor-made communication solutions, and ensure that
-                messages resonate. With over a decade of experience, we have honed
-                our skills in giving brands their unmistakable identity and making
-                them visible in the long term.
+            <p class="lg:text-[48px] md:text-[32px] leading-1 ">
+                    We are a Berlin-based communications agency specialising in helping
+                    companies and brands find their voice and position themselves.
+                    Whether it's brand building, identity sharpening, or communication
+                    strategy, we bring a fresh perspective to established structures,
+                    develop tailor-made communication solutions, and ensure that
+                    messages resonate. With over a decade of experience, we have honed
+                    our skills in giving brands their unmistakable identity and making
+                    them visible in the long term.
             </p>
+
         </div>
     </section>
     <div class="flex justify-center lg:pt-[3px] lg:pb-[128px]">
-        <img src="/src/img/yellow.png" alt="Yellow Shape" class="lg:h-[134px] lg:w-[208px]">
+    <img src="/src/img/yellow.png" alt="Yellow Shape" class="lg:h-[134px] lg:w-[208px] md:w-[196px] md:h-[99px]">    
     </div>
-    <section class="pl-[20px] md:pl-[199px] lg:pl-[180px] pb-16 md:pb-24 lg:pb-32">
-        <div class="lg:grid lg:grid-cols-2 lg:gap-32 items-start">
+    <section class="pl-[20px] md:pl-[109px] lg:pl-[180px] pb-16 md:pb-24 lg:pb-32 md:pt-[80px]">        
+    <div class="block lg:grid lg:grid-cols-2 gap-32 items-start">
             <div>
-                <p class="lg:text-[48px] lg:font-medium lg:py-5">
+                <p class="lg:text-[48px] md:text-[32px] font-medium py-5">
                     Brand strategy
                 </p>
-                <p class="lg:text-[48px] lg:font-medium lg:py-5">
-                    Corporate Identity &amp;
+                <p class="lg:text-[48px] md:text-[32px] font-medium py-5">
+                    Corporate Identity &
                     <br>
-                    Website development
+                        Website development
                 </p>
-                <p class="lg:text-[48px] lg:font-medium lg:py-5">
-                    SEO &amp; copywriting
+                <p class="lg:text-[48px] md:text-[32px] font-medium py-5">
+                    SEO & copywriting
                 </p>
-                <p class="lg:text-[48px] lg:font-medium lg:py-5">
+                <p class="lg:text-[48px] md:text-[32px] font-medium py-5">
                     Media Relations
                 </p>
-                <p class="lg:text-[48px] lg:font-medium lg:py-5">
-                    Digital marketing &amp;
+                <p class="lg:text-[48px] md:text-[32px] font-medium py-5">
+                    Digital marketing &
                     <br>
                     content production
                 </p>
-                <p class="lg:text-[48px] lg:font-medium lg:py-5">
+                <p class="lg:text-[48px] md:text-[32px] font-medium py-5">
                     Influencer relations
                 </p>
             </div>
-            <div class="flex justify-center">
-                <img src="./src/sections/img/bggreen.png" class="lg:pr-[170px] lg:h-[723.61px] lg:w-[657.28px]">
-                <p class="text-[#efecea] lg:text-[21px] absolute lg:right-[30px] lg:leading-12 lg:left-[1214px] lg:top-[2680px] lg:p-6">
-                    Our strategic approach is a <br> collaborative journey that starts <br>
-                    with analysing the initial situation <br> and leads to messages
-                    that cut <br> through the information overload. <br> We take care of
-                    content production <br> and maintain relationships with <br> multipliers
-                    to position your brand in <br> the best possible way. From <br> analysis
-                    to implementation, we <br> accompany you every step of the <br> way,
-                    ensuring that every measure <br> is effective.
-                </p>
+            <div class="flex justify-center "> <!--this one-->
+                <img src="./src/sections/img/bggreen.png" class="pr-[170px] lg:h-[723.61px] lg:w-[657.28px] md:w-[585.56px] md:h-[679.49px] md:pl-[200px] md:pr-[0px]">    
+                </img>
+                    <p class="text-[#efecea] text-[21px] absolute right-[30px]  leading-12 left-[1394px] top-[2730px] p-6">
+                            Our strategic approach is a <br> collaborative journey that starts <br>
+                            with analysing the initial situation <br> and leads to messages
+                            that cut <br> through the information overload. <br> We take care of
+                            content production <br> and maintain relationships with <br> multipliers
+                            to position your brand in <br> the best possible way. From <br> analysis
+                            to implementation, we <br> accompany you every step of the <br> way,
+                            ensuring that every measure <br> is effective.
+                    </p>
+                    <p class="text-[#efecea] text-[21px] absolute  leading-12 left-[450px]  top-[2692px]  hidden md:block lg:hidden"n>
+                            Our strategic approach is a <br> collaborative journey that starts <br>
+                            with analysing the initial situation <br> and leads to messages
+                            that cut <br> through the information overload. <br> We take care of
+                            content production <br> and maintain relationships with <br> multipliers
+                            to position your brand in <br> the best possible way. From <br> analysis
+                            to implementation, we <br> accompany you every step of the <br> way,
+                            ensuring that every measure <br> is effective.
+                    </p>
             </div>
+        </div>
     </section>
-    <div class="absolute text-right lg:text-[24px] lg:leading-12 lg:right-[197px] lg:top-[3800px]">
+
+    <div class="absolute text-right lg:text-[24px] lg:leading-12 lg:right-[197px] lg:top-[3800px] md:left-[480px] md:top-[3550px]">
         <p><a href="#">Ace Hotel</a></p>
         <p><a href="#">ARMEDANGELS</a></p>
         <p><a href="#">BERLIN DESIGN WEEK</a></p>
@@ -97,7 +111,8 @@
         <p><a href="#">World of Coffee</a></p>
         <p><a href="#">yamo</a></p>
     </div>
-    <img src="./src/sections/img/Rectangle 3.png" alt="yellow bg" class="w-full">
-    <div class="flex justify-center lg:mb-24 lg:p-[50px]">
-        <img src="/src/img/red.png" alt="red Shape">
+    <img src="./src/sections/img/Rectangle 3.png" alt="yellow bg" class="w-full hidden lg:block"> 
+    <img src="./src/sections/img/pcyellowbg.png" alt="yellow-tablet" class="hidden md:block lg:hidden">
+    <div class="flex justify-center md:pt-[160px] md:pb-[70px] ">
+        <img src="/src/img/red.png" alt="red Shape" class="md:h-[245px] md:w-[469px] lg:w-[721.5px] lg:h-[418px]">
     </div>
