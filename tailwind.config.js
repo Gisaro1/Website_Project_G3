@@ -6,6 +6,9 @@ module.exports = {
       fontFamily: {
         outfit: ['Outfit', 'sans-serif'],
       },
+      colors: {
+        'color-red': '#ff5e5e',
+      },
     },
   },
   plugins: [],
